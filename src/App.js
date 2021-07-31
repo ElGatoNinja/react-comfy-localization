@@ -2,25 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 
 import ConfyInt from './ConfyInt';
+import ComfyNode from './ComfyNode';
+import ComfyLangButton from './LangSelectors/ComfyLangButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <ConfyInt entry={"test-string"}>
-          Edit and save to reload.
-        </ConfyInt>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ComfyNode defaultLanguage='es' name="test">
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <ConfyInt>
+            test-string
+          </ConfyInt>
+
+          <ComfyLangButton/>
+        </header>
+      </div>
+    </ComfyNode>
   );
 }
 
