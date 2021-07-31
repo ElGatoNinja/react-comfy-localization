@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import ConfyInt from './ConfyInt';
+import ComfyLoc from './ComfyLoc';
 import ComfyNode from './ComfyNode';
 import ComfyLangButton from './LangSelectors/ComfyLangButton';
 
@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <ConfyInt>
+          <ComfyLoc>
             test-string
-          </ConfyInt>
+          </ComfyLoc>
 
           <ComfyLangButton/>
         </header>

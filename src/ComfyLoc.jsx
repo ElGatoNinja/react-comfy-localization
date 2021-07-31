@@ -20,7 +20,7 @@ export default function ComfyLoc(props) {
                 {locString}
                 <Button onClick={() => setIsEditOpen(true)}>E</Button>
                 <EditStringsModal 
-                    label={props.label}
+                    entryId={props.children}
                     isOpen={isEditOpen}
                     setIsOpen={setIsEditOpen}
                 />
