@@ -16,7 +16,7 @@ export default function ComfyLoc(props) {
 
     if(process.env.NODE_ENV === "development") {
         return(
-            <div>
+            <div className="comfy-editable-text">
                 {locString}
                 <Button onClick={() => setIsEditOpen(true)}>E</Button>
                 <EditStringsModal 
