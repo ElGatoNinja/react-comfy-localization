@@ -1,9 +1,9 @@
+import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 
-import ComfyLoc from './ComfyLoc';
-import ComfyNode from './ComfyNode';
-import ComfyLangButton from './LangSelectors/ComfyLangButton';
+import {ComfyLoc, ComfyNode, ComfyLangButton} from 'react-comfy-localization';
 
 function App() {
   return (

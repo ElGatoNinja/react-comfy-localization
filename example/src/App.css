@@ -23,15 +23,3 @@
   color: #61dafb;
 }
 
-.comfy-editable-text {
-  border-style: none;
-}
-
-.comfy-editable-text > button {
-  visibility: collapse;
-  position:absolute;
-}
-
-.comfy-editable-text:hover > button {
-  visibility:visible;
-}
