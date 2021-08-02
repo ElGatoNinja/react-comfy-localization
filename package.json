@@ -1,6 +1,6 @@
 {
   "name": "react-comfy-localization",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Localize your react app directly over your app instead of searching and editing tons of different jsons. And once you build your app, it works like any other localization library.",
   "author": "ElGatoNinja",
   "license": "MIT",
