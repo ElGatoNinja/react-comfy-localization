@@ -1,0 +1,17 @@
+{
+  "name": "comfy-endpoint",
+  "version": "0.0.1",
+  "description": "The logic behind Comfy Localization, stores the changes in the strings to be permanent.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Jaime G Alonso",
+  "license": "MIT",
+  "build": "tsc",
+  
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

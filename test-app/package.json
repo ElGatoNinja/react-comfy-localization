@@ -1,0 +1,40 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "link:../comfy-ui/node_modules/@types/node",
+    "@types/react": "link:../comfy-ui/node_modules/@types/react",
+    "@types/react-dom": "link:../comfy-ui/node_modules/@types/react-dom",
+    "react": "link:../comfy-ui/node_modules/react",
+    "react-dom": "link:../comfy-ui/node_modules/react-dom",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1",
+    "comfy-endpoint": "link:../comfy-endpoint",
+    "comfy-ui":"link:../comfy-ui"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
