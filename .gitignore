@@ -1,6 +1,7 @@
 # lib node artifacts
 */lib
 */node_modules
+/node_modules
 
 #any logging
 *.log

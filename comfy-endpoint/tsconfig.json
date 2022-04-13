@@ -13,6 +13,6 @@
         "suppressImplicitAnyIndexErrors": true,
         "allowSyntheticDefaultImports": true
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules","lib"]
+    "include": ["src"],
+    "exclude": ["lib"]
 }

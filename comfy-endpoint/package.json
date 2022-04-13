@@ -11,6 +11,9 @@
   "dependencies": {
     "typescript": "^4.5.4"
   },
+  "peerDependencies": {
+    "comfy-ui": "0.0.1"
+  },
   "scripts": {
     "build": "tsc"
   }

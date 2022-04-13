@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ComfyString from "./ComfyString";
 import ComfyNode from "./ComfyNode";
