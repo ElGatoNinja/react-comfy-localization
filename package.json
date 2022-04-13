@@ -1,0 +1,15 @@
+{
+  "name": "comfy-localization",
+  "version": "0.0.1",
+  "description": "Library to edit each locale directly on your react development page, and when the page is built the strings are not editable anymore but the localization is working.",
+  "main": "index.js",
+  "repository": "https://github.com/ElGatoNinja/react-comfy-localization.git",
+  "author": "NinjaKitten <JaimeGAlonso@outlook.com>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "comfy-endpoint",
+    "comfy-ui",
+    "snow-app"
+  ]
+}

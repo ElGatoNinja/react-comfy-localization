@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "jsx": "preserve",
+      "noEmit": true,
+      "skipLibCheck": true,
+      "typeRoots": ["node_modules/@types"],
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "importsNotUsedAsValues": "error",
+      "incremental": true,
+      "outDir": "dist",
+      "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
+    }
+}
